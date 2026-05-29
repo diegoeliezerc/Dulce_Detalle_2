@@ -246,3 +246,13 @@ async function eliminarPedido(idPedido) {
     alert("Pedido eliminado correctamente.");
     obtenerPedidos(); // Refrescas la lista visual para que desaparezca
 }
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZT3R4Z5FRH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZT3R4Z5FRH');
+</script>
