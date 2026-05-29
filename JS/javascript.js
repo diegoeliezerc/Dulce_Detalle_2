@@ -101,7 +101,7 @@ form.addEventListener("submit", function(e){
 
 Quiero información para un pastel personalizado 🎂`;
 
-  const phone = "50500000000";
+  const phone = "50583750020";
 
   const url =
 `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
