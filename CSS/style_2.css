@@ -188,22 +188,25 @@ body{
 
 /* BOTÓN WHATSAPP */
 
-.whatsapp-btn{
-  width:100%;
-  border:none;
-  cursor:pointer;
-  background:#25D366;
-  color:white;
-  padding:20px;
-  border-radius:60px;
-  font-size:1.1rem;
-  font-weight:600;
-  transition:0.3s ease;
+.whatsapp-btn {
+  display: block;        /* Convierte el botón en un bloque para poder usar márgenes */
+  width: 90%;            /* Ancho fluido para pantallas móviles */
+  max-width: 400px;      /* Evita que se estire demasiado en pantallas grandes */
+  margin: 20px auto 0;   /* El 'auto' a los lados hace la magia de centrarlo automáticamente */
+  border: none;
+  cursor: pointer;
+  background: #25D366;
+  color: white;
+  padding: 20px;
+  border-radius: 60px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  transition: 0.3s ease;
 }
 
-.whatsapp-btn:hover{
-  transform:translateY(-3px);
-  background:#1ebe5d;
+.whatsapp-btn:hover {
+  transform: translateY(-3px);
+  background: #1ebe5d;
 }
 /* RESPONSIVE */
 
